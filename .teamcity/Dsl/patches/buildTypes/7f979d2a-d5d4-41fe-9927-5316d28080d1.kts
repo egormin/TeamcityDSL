@@ -19,7 +19,7 @@ changeBuildType("7f979d2a-d5d4-41fe-9927-5316d28080d1") {
         }
         add {
             checkbox("three", "three", label = "three", display = ParameterDisplay.PROMPT,
-                      checked = "true")
+                      checked = "true", unchecked = "false")
         }
         add {
             checkbox("two", "two", label = "two", display = ParameterDisplay.PROMPT,
