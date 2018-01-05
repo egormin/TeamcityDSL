@@ -13,7 +13,7 @@ object Dsl_Build : BuildType({
     params {
         select("Choice", "", label = "Choose necessary software", display = ParameterDisplay.PROMPT,
                 allowMultiple = true,
-                options = listOf(the_list))
+                options = the_list
         select("Installed", "in", label = "Installed software", display = ParameterDisplay.PROMPT,
                 options = listOf("Java 1.7", "Gradle 3", "Gradle 2"))
     }
