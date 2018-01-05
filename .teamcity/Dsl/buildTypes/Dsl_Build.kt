@@ -11,7 +11,7 @@ object Dsl_Build : BuildType({
     params {
         select("Choice", "", label = "Choose necessary software", display = ParameterDisplay.PROMPT,
                 allowMultiple = true,
-                options = listOf("Java 1.5", "Java 1.6", "Java 1.7", "Java 1.8", "Gradle 3", "Gradle 4", "Terraform 3", "Terraform 4"))
+                options = listOf("Java 1.5", "Java 1.6", "Java 1.7", "Java 1.8", "Gradle 3", "Gradle 4", "Terraform 3", "Terraform 4", "Python 3", "Docker 4"))
         select("Installed", "in", label = "Installed software", display = ParameterDisplay.PROMPT,
                 options = listOf("Java 1.7", "Gradle 3", "Gradle 2"))
     }
