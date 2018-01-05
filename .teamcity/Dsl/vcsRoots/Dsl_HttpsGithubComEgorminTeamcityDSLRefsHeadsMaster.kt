@@ -3,10 +3,10 @@ package Dsl.vcsRoots
 import jetbrains.buildServer.configs.kotlin.v2017_2.*
 import jetbrains.buildServer.configs.kotlin.v2017_2.vcs.GitVcsRoot
 
-object Dsl_HttpsGithubComEgorminTeamcityDSLtRefsHeadsMaster : GitVcsRoot({
+object Dsl_HttpsGithubComEgorminTeamcityDSLRefsHeadsMaster : GitVcsRoot({
     uuid = "90bfeac4-27bf-4f74-ac52-c3798a6eaa71"
-    id = "Dsl_HttpsGithubComEgorminTeamcityDSLtRefsHeadsMaster"
-    name = "https://github.com/egormin/TeamcityDSLt#refs/heads/master"
+    id = "Dsl_HttpsGithubComEgorminTeamcityDSLRefsHeadsMaster"
+    name = "https://github.com/egormin/TeamcityDSL#refs/heads/master"
     url = "https://github.com/egormin/TeamcityDSL"
     authMethod = password {
         userName = "egormin"
