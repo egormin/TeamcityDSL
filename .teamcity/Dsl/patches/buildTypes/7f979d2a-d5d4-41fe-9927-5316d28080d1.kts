@@ -14,7 +14,7 @@ changeBuildType("7f979d2a-d5d4-41fe-9927-5316d28080d1") {
             password("Pass", "credentialsJSON:14836c1f-fd23-4da0-ae40-5a1916871658", label = "Pass")
         }
         add {
-            checkbox("test", "", label = "one",
+            checkbox("test", "", label = "one", display = ParameterDisplay.PROMPT,
                       checked = "true")
         }
     }
