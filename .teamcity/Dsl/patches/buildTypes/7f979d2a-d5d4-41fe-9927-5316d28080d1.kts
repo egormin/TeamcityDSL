@@ -9,11 +9,6 @@ To apply the patch, change the buildType with uuid = '7f979d2a-d5d4-41fe-9927-53
 accordingly and delete the patch script.
 */
 changeBuildType("7f979d2a-d5d4-41fe-9927-5316d28080d1") {
-    check(name == "Build") {
-        "Unexpected name: '$name'"
-    }
-    name = "Build1"
-
     params {
         add {
             password("Pass", "credentialsJSON:14836c1f-fd23-4da0-ae40-5a1916871658", label = "Pass")
